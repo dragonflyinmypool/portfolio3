@@ -1,0 +1,32 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./fonts/NevisBold-KGwl.ttf);
+}
+
+/* add color vaiables*/
+
+:root {
+    --page-background: #cecbcc;
+    --card-background: #c1c8c2;
+    --title-color: #1f1812;
+    --button-color: #c1c8c2;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 20px;
+    background-color: var(--page-background);
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--title-color);
+    margin: 10px 0px;
+}

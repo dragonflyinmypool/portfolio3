@@ -1,0 +1,54 @@
+{
+	"courses": [
+		{ "title": "Responsive Web Design", "institution": "FreeCodeCamp", "status": "Completed" },
+		{
+			"title": "Intro to JS: Drawing & Animation",
+			"institution": "FreeCodeCamp",
+			"status": "Completed"
+		},
+		{
+			"title": "Advanced JS: Games & Visualizations",
+			"institution": "FreeCodeCamp",
+			"status": "Completed"
+		},
+		{ "title": "Intermediate JavaScript", "institution": "Udemy", "status": "Completed" },
+		{
+			"title": "JavaScript: Understanding the Weird Parts",
+			"institution": "Udemy",
+			"status": "Completed"
+		},
+		{
+			"title": "JavaScript Algorithms and Data Structures",
+			"institution": "FreeCodeCamp",
+			"status": "Completed"
+		},
+		{ "title": "Svelte JS the Complete Guide", "institution": "Udemy", "status": "Completed" },
+		{
+			"title": "Svelte & SvelteKit: The Complete Guide",
+			"institution": "Udemy",
+			"status": "Not yet started"
+		},
+		{ "title": "Modern React with Redux", "institution": "Udemy", "status": "Not yet started" },
+		{
+			"title": "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
+			"institution": "Udemy",
+			"status": "Taking currently"
+		},
+		{
+			"title": "API and Web Service Introduction",
+			"institution": "Udemy",
+			"status": "Taking currently"
+		},
+		{
+			"title": "The Complete Google Sheets Course: Beginner to Advanced!",
+			"institution": "Udemy",
+			"status": "Completed"
+		},
+		{
+			"title": "Completed math, physics, and structures courses",
+			"institution": "Florida Atlantic University",
+			"status": "Completed"
+		},
+		{ "title": "Architecture", "institution": "Florida Atlantic University", "status": "Completed" }
+	]
+}
