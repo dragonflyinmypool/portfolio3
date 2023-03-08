@@ -1,5 +1,4 @@
 <script>
-  import StatusBar from './StatusBar.svelte';
   export let data;
 </script>
 
@@ -14,7 +13,6 @@
       <div class="tech">{data.usageStats.stars}</div>
       <div class="tech">{data.usageStats.reviews}</div>
     {/if}
-    <StatusBar statusData={data.status} />
   </div>
 </div>
 

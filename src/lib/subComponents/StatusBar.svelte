@@ -4,7 +4,7 @@
 
 <div class="status">
   {#if 'status' in statusData}
-    <span>{statusData.status}</span>
+    <span>Status: {statusData.status}</span>
   {/if}
   {#if 'version' in statusData}
     <span>V{statusData.version}</span>
@@ -12,4 +12,7 @@
 </div>
 
 <style>
+  .status {
+    font-size: 0.7rem;
+  }
 </style>

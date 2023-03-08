@@ -5,11 +5,7 @@
 
 <div class="flex-Text">
   {#if status === 'small'}
-    <a
-      href={`/detail/${data.name}`}
-      class="link"
-      style="font-size: 20px; line-height: 5px;">+</a
-    >
+    <a href={`/detail/${data.name}`} class="link" style="font-size: 15px;">+</a>
   {:else}
     <a href={`../`} class="link">-</a>
   {/if}
@@ -32,7 +28,7 @@
   .link {
     /* background-color: #dddddd; */
     padding: 0.6rem 0.5rem;
-    line-height: 4px;
+    line-height: 2px;
   }
 
   a {
