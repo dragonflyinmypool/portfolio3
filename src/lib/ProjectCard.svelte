@@ -11,7 +11,7 @@
 <GenericCard>
   <div class="layout">
     <CardTitle {data} />
-    <StatusBar statusData={data.status} />
+    <StatusBar statusData={data} />
     <MoreInfo {data} />
     <p>{data.description}</p>
     <LinkBar {data} status="small" />

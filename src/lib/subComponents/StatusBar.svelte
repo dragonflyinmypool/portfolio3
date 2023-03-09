@@ -4,10 +4,10 @@
 
 <div class="status">
   {#if 'status' in statusData}
-    <span>Status: {statusData.status}</span>
+    <!-- <span>Status: {statusData.status}</span> -->
   {/if}
   {#if 'version' in statusData}
-    <span>V{statusData.version}</span>
+    <!-- <span>V{statusData.version}</span> -->
   {/if}
 </div>
 

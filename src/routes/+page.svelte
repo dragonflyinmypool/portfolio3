@@ -5,13 +5,13 @@
   import CourseCard from '$lib/infoCards/CourseCard.svelte';
 
   // Project Cards Data
-  import { cards } from '$lib/data/cardData.json';
+  import { projects } from '$lib/data/cardData.json';
 </script>
 
 <main>
   <Header />
   <div class="grid">
-    {#each cards as data}
+    {#each projects as data}
       <ProjectCard {data} />
     {/each}
     <CourseCard />
