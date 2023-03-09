@@ -4,16 +4,16 @@
   import MoreInfo from '../../../lib/subComponents/MoreInfo.svelte';
 
   export let data;
-  import { cards } from '$lib/data/cardData.json';
-  let cardData = cards.filter((cards) => cards.name === data.slug);
+  import { projects } from '$lib/data/cardData.json';
+  let cardData = projects.filter((projects) => projects.name === data.slug);
   let cardInfo = cardData[0];
 
-  console.log(data.slug);
+  console.log(data);
 </script>
 
 <div class="layout">
   <h1>{cardInfo.name}</h1>
-  <StatusBar statusData={cardInfo.status} />
+  <StatusBar statusData={cardInfo} />
   <MoreInfo data={cardInfo} />
 
   <p>{cardInfo.description}</p>
